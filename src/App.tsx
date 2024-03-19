@@ -2,23 +2,8 @@ import Nav from "./components/Nav";
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
-import { cn } from "./lib/utils";
-import { Switch } from "./components/ui/switch";
 import { Button } from "./components/ui/button";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "./components/ui/select";
-import { Label } from "./components/ui/label";
-import { Input } from "./components/ui/input";
 import { ThemeProvider } from "./components/theme-provider";
 import Latex from "react-latex-next";
 import "katex/dist/katex.min.css";
@@ -34,7 +19,7 @@ import {
   MenubarTrigger,
 } from "@/components/ui/menubar";
 
-import { CheckIcon, Cross2Icon, Pencil1Icon } from "@radix-ui/react-icons";
+import { CheckIcon, Cross2Icon } from "@radix-ui/react-icons";
 
 function App() {
   return (

@@ -1,6 +1,3 @@
-import React from "react";
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import picture from "./assets/react.svg";
 import { Button } from "./ui/button";
 import {
   DropdownMenu,
