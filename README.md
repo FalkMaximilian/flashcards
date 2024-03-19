@@ -1,3 +1,18 @@
+# Flashcards
+
+This app aims to be a very simplistic flashcards app. It should mirror physical flashcards without adding tons of features.
+
+The app will have the following functionality:
+
+* Add a flashcard
+* Create sets/decks
+* Add flashcards to one or more sets/decks
+* View all decks
+* View all flashcards
+
+The app will not have:
+* Playful modes for learning
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -28,4 +43,3 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# flashcards
