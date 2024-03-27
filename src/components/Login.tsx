@@ -16,8 +16,8 @@ import { Button } from "@/components/ui/button"
 export function Login() {
   return (
     <div className=" h-svh pt-20 px-4 pb-4">
-      <div className="h-full grid place-items-center">
-        <Tabs defaultValue="login" className="w-full max-w-[400px] md:mx-auto">
+      <div className="h-full">
+        <Tabs defaultValue="login" className="w-full max-w-[400px] mx-auto">
           <TabsList className="grid w-full grid-cols-2">
             <TabsTrigger value="login">Login</TabsTrigger>
             <TabsTrigger value="register">Register</TabsTrigger>
